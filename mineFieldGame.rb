@@ -46,7 +46,6 @@ while status == 1 do
                     print("#{fields[r][c]}")
                 else
                     print("#{fields[r][c]}")
-                    # BURADA KALDIM .. mines DİZİSİNE DEFAULT OLARAK "| . |" ATAMAM GEREK VE BU KISIMDA KONTROL EDERKEN mines[r][c] ELEMANI "*"`A EŞİT DEĞİL İSE DEĞERİNİ |   | YAPMALI VE ONDAN SONRA print(mines[r][c]) İFADESİ İLE EKRANA YAZDIRMALIYIM.....
                 end
             end
             print("\n")
