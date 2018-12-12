@@ -51,14 +51,5 @@ while status == 1 do
             print("\n")
         end
         score += 1
-        for o in(0...N)
-            for u in(0...N)
-                if(mines[o][c] == "| ? |")
-                    var = 1
-                    status = 1
-                    break
-                end
-            end
-        end
     end
 end
